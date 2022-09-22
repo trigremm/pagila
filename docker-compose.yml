@@ -16,3 +16,10 @@ services:
       - 5432
     ports:
       - 5432:5432
+
+  adminer:
+    image: adminer
+    restart: always
+    ports:
+      - 8080:8080
+      
